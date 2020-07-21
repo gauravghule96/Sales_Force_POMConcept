@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [POM concept Automate Suite]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListner.ExtentReportListnerNG"/>
+  </listeners>
+  <test name="POM concept differnt automations test cases(failed)">
+    <classes>
+      <class name="com.qa.testcases.ContactsPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="selectMultipleContactsTest"/>
+          <include name="tearDown"/>
+          <include name="validateCreateNewContact"/>
+          <include name="selectContactsTest"/>
+          <include name="verifyContactsPageLableTest"/>
+        </methods>
+      </class> <!-- com.qa.testcases.ContactsPageTest -->
+      <class name="com.qa.testcases.HomePageTest">
+        <methods>
+          <include name="verifyUserNameTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyContactLinkTest"/>
+        </methods>
+      </class> <!-- com.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- POM concept differnt automations test cases(failed) -->
+</suite> <!-- Failed suite [POM concept Automate Suite] -->

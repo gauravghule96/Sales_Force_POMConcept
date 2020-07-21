@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="POM concept Automate Suite">
+  <test name="POM concept differnt automations test cases">
+  
+    <classes>
+    
+      <class name="com.qa.testcases.LoginPageTest" ></class>
+      <class name="com.qa.testcases.HomePageTest" ></class>
+    
+      
+     </classes>
+      
+  </test>
+      
+</suite>
