@@ -29,6 +29,7 @@ public class TestUtils extends TestBase  {
 	
 	public void switchToFrame(){
 		driver.switchTo().frame(0);
+		System.out.println("00000");
 	}
 	
 	public static Object[][] getTestData(String sheetName) throws InvalidFormatException {
